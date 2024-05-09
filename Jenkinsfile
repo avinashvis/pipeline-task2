@@ -36,6 +36,8 @@ pipeline {
 
             steps {
 
+                sh 'touch ./deploy.sh'
+
                 sh 'cat ./deploy.sh'
 
                 sh 'echo "Deploying..."'
