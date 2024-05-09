@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                groovy Build
+                sh '/var/lib/jenkins/workspace/pipeline-task2/Build.sh'
 
             }
 
