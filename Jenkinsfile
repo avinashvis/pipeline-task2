@@ -8,9 +8,7 @@ pipeline {
 
             steps {
 
-                sh 'echo "Building..."'
-
-                sh 'ls -al'
+                groovy Build
 
             }
 
